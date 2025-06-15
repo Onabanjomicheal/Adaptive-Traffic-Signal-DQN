@@ -12,6 +12,7 @@ This repository contains the implementation of an intelligent traffic signal opt
 - [Simulation and Evaluation](#simulation-and-evaluation)
 - [Results and Analysis](#results-and-analysis)
 - [Discussion](#discussion)
+- [Conclusion](#conclusion)
 - [Contributing](#contributing)
 
 ## Aim
@@ -66,6 +67,11 @@ After running the simulations, the `results/` directory will contain:
 
 ## Discussion
 The performance of the three traffic signal control strategies was rigorously compared under identical traffic demand conditions. The Fixed Timing (FT) and Q-Learning (QL) simulations were run for a fixed duration of 3600 simulated seconds (1 hour). The Deep Q-Learning (DQN) agent was trained over an extended period (up to 5 simulated hours, 36000 steps), but its exceptional performance meant it cleared all traffic much faster, completing its run in just 1446.02 simulated seconds.
+
+## Conclusion
+
+This project successfully demonstrates the efficacy of Deep Q-Learning in optimizing traffic signal control for a complex urban environment simulated in SUMO. The developed DQN agent, employing a global reward function based on minimizing accumulated waiting time, significantly outcompetes traditional Fixed-Time signals and a simpler Q-Learning (Q-table) approach. The DQN model achieved remarkable improvements in clearing all traffic demand, reducing average travel times, increasing average speeds, and drastically minimizing gridlock-induced teleports. While total emissions for processed vehicles were higher in some categories compared to partial 1-hour runs, the ability of the DQN to efficiently manage and clear the entire traffic load positions it as a highly promising solution for intelligent urban mobility.
+
 
 ## Contributing
 
