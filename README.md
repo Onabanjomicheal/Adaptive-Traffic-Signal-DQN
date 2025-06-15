@@ -18,7 +18,7 @@ This repository contains the implementation of an intelligent traffic signal opt
 - [Contributing](#contributing)
 
 ## Aim
-To reduce traffic congestion, improve vehicle throughput, and minimize travel time and environmental impact in high-traffic areas of Lagos, specifically the Oke Afa Roundabout and Isolo–Ikotun Corridor, by implementing Reinforcement Learning (RL) as an alternative to conventional fixed-time signal systems.
+To reduce traffic congestion, improve vehicle throughput, and minimize travel time and environmental impact in high-traffic areas of Lagos, specifically the Oke Afa Roundabout and Isolo–Mushin Corridor, by implementing Reinforcement Learning (RL) as an alternative to conventional fixed-time signal systems.
 
 ## Objectives
 -	To simulate real-world traffic conditions of the Oke Afa Roundabout and its extensions using the SUMO (Simulation of Urban MObility) environment.
