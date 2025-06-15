@@ -4,7 +4,9 @@
 
 A Reinforcement Learning model that clears traffic in Lagos 59% faster than traditional systems—tested on real maps using SUMO and Deep Q-Networks.
 
-## 🔥 Why This Matters
+## Why This Matters  
+🔥
+
 Lagos traffic isn’t just inconvenient—it’s catastrophic. The Oke Afa Roundabout and Isolo–Mushin Corridor are among the city's most congested intersections. Traditional fixed-timing systems collapse under pressure. This project uses Deep Reinforcement Learning to fix that.
 
 Our DQN-based signal controller outperforms traditional systems, cutting travel time by over 30%, increasing speed by 50%, and completing nearly 2x more trips—all in a realistic SUMO simulation built from actual OSM map data.
@@ -21,19 +23,18 @@ Our DQN-based signal controller outperforms traditional systems, cutting travel 
 - [What to Do Next](#what-to-do-next)
 - [Author](#author)
 
-## 🎯 Project Goals
+## Project Goals  
+🎯
 
 To simulate real-world traffic conditions at multiple intersections, including the Oke Afa Roundabout and adjacent junctions.
 
 - Simulate Lagos traffic at key intersections (Oke Afa Roundabout, Isolo–Mushin) using SUMO.
-
 - Train a Deep Q-Network agent to dynamically adapt traffic signals in real-time.
-
 - Benchmark against Fixed-Time and classical Q-Learning agents.
-
 - Measure speed, throughput, emissions, and travel efficiency.
 
-## 🧠 Agents Built
+## Agents Built  
+🧠
 
 | Agent                  | Description                                                                      |
 | ---------------------- | -------------------------------------------------------------------------------- |
@@ -41,23 +42,21 @@ To simulate real-world traffic conditions at multiple intersections, including t
 | ⬜ **Q-Learning Agent** | Table-based RL. Simple but effective baseline.                                   |
 | ❌ **Fixed-Time Agent** | Static signal schedule. Old-school, non-adaptive benchmark.                      |
 
+## How It Was Tested  
+🧪
 
-## 🧪 How It Was Tested
 - SUMO simulation (command-line, 0.5s step size).
-
 - 3,600s runs for Fixed and QL. DQN terminated early due to full network clearance.
-
 - Output data:
 
-Trip info
+  - Trip info  
+  - Emissions (CO2, CO, HC, NOx, PMx, Fuel, Noise)  
+  - Speed, queue length, and travel time
 
-Emissions (CO2, CO, HC, NOx, PMx, Fuel, Noise)
+- Visuals and reports generated with Matplotlib, Excel, and Pandas.
 
-Speed, queue length, and travel time
-
-Visuals and reports generated with Matplotlib, Excel, and Pandas.
-
-## 📊 Performance Highlights
+## Performance Highlights  
+📊
 
 | Metric               | Fixed Timing | Q-Learning | DQN            |
 | -------------------- | ------------ | ---------- | -------------- |
@@ -68,40 +67,42 @@ Visuals and reports generated with Matplotlib, Excel, and Pandas.
 
 DQN cleared all vehicles in under 25 minutes, while others needed a full hour—and still didn’t finish.
 
-📁 See full breakdown in results/Traffic metrics report.xlsx
+📁 See full breakdown in `results/Traffic metrics report.xlsx`
 
-## 📽️ Demo Video
+## Demo Video  
+📽️
+
 🚧 (To be added — consider recording QL or OSM sim)
 
-Embed the video here once it's ready: .gif, .mp4, or YouTube iframe. Show it in action.
+Embed the video here once it's ready: `.gif`, `.mp4`, or YouTube iframe. Show it in action.  
 A basic reinforcement learning agent that uses a Q-table to store and update Q-values. While less scalable than DQN for large state spaces, it provides a valuable comparison for the learning process.
 
-## 🧰 Stack and Tools
-SUMO / NetEdit (network creation and traffic simulation)
+## Stack and Tools  
+🧰
 
-Python: Core logic
+- SUMO / NetEdit (network creation and traffic simulation)
+- Python: Core logic
+- TensorFlow + Keras (DQN Model)
+- SumoLib, Traci (interface with SUMO)
+- Pandas, Numpy, Matplotlib (data analysis and plotting)
 
-TensorFlow + Keras (DQN Model)
+## Contributing  
+🤝
 
-SumoLib, Traci (interface with SUMO)
-
-Pandas, Numpy, Matplotlib (data analysis and plotting)
-
-
-## 🤝 Contributing
-Got a better RL architecture? Want to simulate a new intersection in Lagos or Nairobi?
+Got a better RL architecture? Want to simulate a new intersection in Lagos or Nairobi?  
 PRs and issues welcome.
 
-## ✅ What to Do Next
-Clone and run the sim.
+## What to Do Next  
+✅
 
-Watch the demo (coming soon).
+- Clone and run the sim.
+- Watch the demo (coming soon).
+- Try your own reward function.
+- Open an issue. Let's scale this.
 
-Try your own reward function.
+## Author  
+👨‍💻
 
-Open an issue. Let's scale this.
-
-## 👨‍💻 Author
 **Onabanjo Micheal**  
 Engineer | Researcher | Builder  
 Passionate about AI for urban mobility, intelligent systems, and climate-resilient infrastructure.  
