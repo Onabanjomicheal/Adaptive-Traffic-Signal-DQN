@@ -71,10 +71,10 @@ DQN cleared all vehicles in under 25 minutes, while others needed a full hour—
 
 ## Demo Video  
 📽️
+[![Watch the demo](https://img.youtube.com/vi/PvEnpbbN28A/0.jpg)](https://www.youtube.com/watch?v=PvEnpbbN28A)
 
-🚧 (To be added — consider recording QL or OSM sim)
-
-Embed the video here once it's ready: `.gif`, `.mp4`, or YouTube iframe. Show it in action.  
+Watch a short demo of the traffic simulation built from real OpenStreetMap (OSM) data. This clip shows the Isolo–Egbe–Oke Afa corridor modeled in SUMO, laying the foundation for the Deep Q-Learning controller.
+ 
 
 ## Stack and Tools  
 🧰
