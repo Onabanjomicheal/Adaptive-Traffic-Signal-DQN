@@ -23,6 +23,9 @@ Our DQN-based signal controller outperforms traditional systems, cutting travel 
 - [Author](#author)
 
 ## 🎯 Project Goals
+
+To simulate real-world traffic conditions at multiple intersections, including the Oke Afa Roundabout and adjacent junctions.
+
 - Simulate Lagos traffic at key intersections (Oke Afa Roundabout, Isolo–Mushin) using SUMO.
 
 - Train a Deep Q-Network agent to dynamically adapt traffic signals in real-time.
