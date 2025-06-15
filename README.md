@@ -75,7 +75,6 @@ DQN cleared all vehicles in under 25 minutes, while others needed a full hour—
 🚧 (To be added — consider recording QL or OSM sim)
 
 Embed the video here once it's ready: `.gif`, `.mp4`, or YouTube iframe. Show it in action.  
-A basic reinforcement learning agent that uses a Q-table to store and update Q-values. While less scalable than DQN for large state spaces, it provides a valuable comparison for the learning process.
 
 ## Stack and Tools  
 🧰
