@@ -58,16 +58,29 @@ To simulate real-world traffic conditions at multiple intersections, including t
 ## Performance Highlights  
 📊
 
-| Metric               | Fixed Timing | Q-Learning | DQN            |
-| -------------------- | ------------ | ---------- | -------------- |
-| **Trips Completed**  | 1290         | 1519       | **2401** ✅     |
-| **Avg. Travel Time** | 550s         | 408s       | **361s** ✅     |
-| **Avg. Speed**       | 4.15 m/s     | 5.21 m/s   | **6.31 m/s** ✅ |
-| **Simulation Time**  | 3600s        | 3600s      | **1446s** ✅    |
+| Metric                | Fixed Timing | Q-Learning | DQN             |
+|-----------------------|--------------|------------|------------------|
+| **Trips Completed**   | 1290         | 1519       | **2401** ✅       |
+| **Avg. Travel Time**  | 550s         | 408s       | **361s** ✅       |
+| **Avg. Speed**        | 4.15 m/s     | 5.21 m/s   | **6.31 m/s** ✅   |
+| **Simulation Time**   | 3600s        | 3600s      | **1446s** ✅      |
+| **Total Emissions**   | ~13.1B mg    | ~12.4B mg  | ~14.4B mg ❗     |
+| **Emissions/Trip**    | 10.16M mg    | 8.16M mg   | **6.00M mg** ✅   |
+
 
 DQN cleared all vehicles in under 25 minutes, while others needed a full hour—and still didn’t finish.
 
+🔍 Note: While DQN recorded slightly higher total emissions, it cleared significantly more vehicles. Emissions per trip are still favorable compared to traditional systems.
+
 📁 See full breakdown in `results/Traffic metrics report.xlsx`
+
+## Top 10 Most Used Routes
+🧭
+The chart below shows which road segments (edges) experienced the highest traffic volume during the simulation. This insight helps identify pressure points within the Oke Afa–Isolo corridor.
+
+![Top 10 Most Used Edges](https://raw.githubusercontent.com/YourUsername/YourRepoName/main/results/top10_routes.png)
+
+***Observation*** : The Egbe Road inbound and outbound links carried the most vehicles, suggesting they’re critical for flow optimization.
 
 ## Demo Video  
 📽️
