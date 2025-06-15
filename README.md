@@ -11,15 +11,14 @@ Our DQN-based signal controller outperforms traditional systems, cutting travel 
 
 ## Table of Contents
 
-- [Project Goals](#project_goals)
-- [Agents Built](#agents_built)
-- [How It Was Tested](#how_it_was_tested)
-- [Agents Implemented](#agents-implemented)
-- [Performance Highlights](#performance_highlights)
-- [Demo Video](#demo_video)
-- [Stack and Tools](#stack_tools)
+- [Project Goals](#project-goals)
+- [Agents Built](#agents-built)
+- [How It Was Tested](#how-it-was-tested)
+- [Performance Highlights](#performance-highlights)
+- [Demo Video](#demo-video)
+- [Stack and Tools](#stack-and-tools)
 - [Contributing](#contributing)
-- [What to Do Next](#what_to_do_next)
+- [What to Do Next](#what-to-do-next)
 - [Author](#author)
 
 ## 🎯 Project Goals
@@ -104,5 +103,6 @@ Open an issue. Let's scale this.
 
 ## 👨‍💻 Author
 **Onabanjo Micheal**  
-Passionate about AI, intelligent mobility, and sustainable cities.  
+Engineer | Researcher | Builder  
+Passionate about AI for urban mobility, intelligent systems, and climate-resilient infrastructure.  
 🔗 [LinkedIn Profile](https://www.linkedin.com/in/micheal-onabanjo/)
