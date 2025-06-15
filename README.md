@@ -84,14 +84,6 @@ SumoLib, Traci (interface with SUMO)
 
 Pandas, Numpy, Matplotlib (data analysis and plotting)
 
-## Repo Structure
-
-input_data/             # OSM and SUMO files
-results/                # Graphs, metrics, plots
-DQL_Agent.py            # Deep Q-Learning agent
-QLearning_Agent.py      # Table-based Q-learning agent
-FixedTime_Agent.py      # Static timing logic
-
 
 ## 🤝 Contributing
 Got a better RL architecture? Want to simulate a new intersection in Lagos or Nairobi?
