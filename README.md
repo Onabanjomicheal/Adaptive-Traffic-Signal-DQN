@@ -12,12 +12,12 @@ Our DQN-based signal controller outperforms traditional systems, cutting travel 
 ## Table of Contents
 
 - [Project Goals](#project_goals)
-- [Introduction](#introduction)
-- [Features](#features)
+- [Agents Built](#agents_built)
+- [How It Was Tested](#how_it_was_tested)
 - [Agents Implemented](#agents-implemented)
-- [Simulation and Evaluation](#simulation-and-evaluation)
-- [Results and Analysis](#results-and-analysis)
-- [Discussion](#discussion)
+- [Performance Highlights](#performance_highlights)
+- [Demo Video](#demo_video)
+- [Stack and Tools](#stack_tools)
 - [Conclusion](#conclusion)
 - [Contributing](#contributing)
 
@@ -107,6 +107,6 @@ Try your own reward function.
 Open an issue. Let's scale this.
 
 ## 👨‍💻 Author
-Onabanjo Micheal
-Passionate about AI for sustainable cities.
-📫 Connect on LinkedIn
+- Onabanjo Micheal
+- Passionate about AI for sustainable cities.
+- 📫 Connect on LinkedIn
