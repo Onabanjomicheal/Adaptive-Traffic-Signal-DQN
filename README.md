@@ -78,7 +78,11 @@ DQN cleared all vehicles in under 25 minutes, while others needed a full hour—
 🧭
 The chart below shows which road segments (edges) experienced the highest traffic volume during the simulation. This insight helps identify pressure points within the Oke Afa–Isolo corridor.
 
-![Top 10 Most Used Edges](https://raw.githubusercontent.com/YourUsername/YourRepoName/main/results/top10_routes.png)
+## 🧭 Top 10 Most Used Routes
+
+![Top 10 Routes](https://raw.githubusercontent.com/Onabanjomicheal/Adaptive-Traffic-Signal-DQN/main/results/top10_routes.png)
+
+> The Egbe–Isolo corridor dominates in vehicle flow intensity. These routes experienced the most traffic pressure, making them prime candidates for adaptive signal control.
 
 ***Observation*** : The Egbe Road inbound and outbound links carried the most vehicles, suggesting they’re critical for flow optimization.
 
