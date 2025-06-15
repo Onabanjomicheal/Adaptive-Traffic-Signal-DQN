@@ -100,6 +100,6 @@ Try your own reward function.
 Open an issue. Let's scale this.
 
 ## 👨‍💻 Author
-- Onabanjo Micheal
-- Passionate about AI for sustainable cities.
-- 📫 Connect on LinkedIn
+**Onabanjo Micheal**  
+Passionate about AI, intelligent mobility, and sustainable cities.  
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/micheal-onabanjo/)
