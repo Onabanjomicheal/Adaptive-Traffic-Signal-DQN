@@ -74,6 +74,32 @@ The performance of the three traffic signal control strategies was rigorously co
 
 This project successfully demonstrates the efficacy of Deep Q-Learning in optimizing traffic signal control for a complex urban environment simulated in SUMO. The developed DQN agent, employing a global reward function based on minimizing accumulated waiting time, significantly outcompetes traditional Fixed-Time signals and a simpler Q-Learning (Q-table) approach. The DQN model achieved remarkable improvements in clearing all traffic demand, reducing average travel times, increasing average speeds, and drastically minimizing gridlock-induced teleports. While total emissions for processed vehicles were higher in some categories compared to partial 1-hour runs, the ability of the DQN to efficiently manage and clear the entire traffic load positions it as a highly promising solution for intelligent urban mobility.
 
+## Software and Tools
+
+This project utilizes a combination of specialized software and Python libraries for traffic simulation, reinforcement learning, and data analysis.
+
+## Software
+- SUMO (Simulation of Urban MObility): The primary open-source traffic simulation package used for modeling and simulating urban mobility.
+
+- Git: Version control system for tracking changes and collaboration.
+
+- Netedit (SUMO): A graphical network editor included with SUMO, often used for creating and modifying SUMO network files. (No standard badge available)
+
+# Python Libraries
+ Python: The programming language used for agent development.
+
+sumolib: Python utilities for working with SUMO, including parsing SUMO XML files and interacting with the simulation. (No standard badge available)
+
+- pandas: Data manipulation and analysis library, primarily for handling tabular data (e.g., Excel reports).
+
+- numpy: Fundamental package for numerical computing in Python, especially for array operations.
+
+- tensorflow: Open-source machine learning framework for building and training neural networks (used by the DQN agent).
+
+- keras: High-level API for building and training deep learning models, running on top of TensorFlow.
+
+- matplotlib: Plotting library for creating static, interactive, and animated visualizations of simulation results.
+
 
 ## Contributing
 
