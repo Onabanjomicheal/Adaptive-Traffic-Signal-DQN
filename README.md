@@ -18,8 +18,9 @@ Our DQN-based signal controller outperforms traditional systems, cutting travel 
 - [Performance Highlights](#performance_highlights)
 - [Demo Video](#demo_video)
 - [Stack and Tools](#stack_tools)
-- [Conclusion](#conclusion)
 - [Contributing](#contributing)
+- [What to Do Next](#what_to_do_next)
+- [Author](#author)
 
 ## 🎯 Project Goals
 - Simulate Lagos traffic at key intersections (Oke Afa Roundabout, Isolo–Mushin) using SUMO.
