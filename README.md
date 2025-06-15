@@ -1,6 +1,6 @@
 ## Optimizing Traffic Signals using Deep Q-Networks (DQN) in SUMO for Lagos Traffic
 
-This repository contains the implementation of an intelligent traffic signal optimization system using Deep Q-Networks (DQN) within the SUMO (Simulation of Urban MObility) environment. The project aims to reduce traffic congestion and improve flow at intersections, specifically focusing on traffic patterns inspired by Lagos, Nigeria.
+This repository contains the implementation of an intelligent traffic signal optimization system using Deep Q-Networks (DQN) within the SUMO (Simulation of Urban MObility) environment.
 
 # Introduction
 
