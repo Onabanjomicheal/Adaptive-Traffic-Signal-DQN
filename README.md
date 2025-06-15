@@ -9,7 +9,9 @@ This repository contains the implementation of an intelligent traffic signal opt
 - [Introduction](#introduction)
 - [Features](#features)
 - [Agents Implemented](#agents-implemented)
+- [Simulation and Evaluation](#simulation-and-evaluation)
 - [Results and Analysis](#results-and-analysis)
+- [Discussion](#discussion)
 - [Contributing](#contributing)
 
 ## Aim
@@ -51,12 +53,19 @@ A simple agent that applies predefined, static traffic light timings. This serve
 
 A basic reinforcement learning agent that uses a Q-table to store and update Q-values. While less scalable than DQN for large state spaces, it provides a valuable comparison for the learning process.
 
+## Simulation and Evaluation
+
+All simulations were conducted using the command-line SUMO (sumo executable for performance). A consistent step-length of 0.5 seconds was maintained across all experiments for fair comparison. Performance metrics, including total trips completed, average travel time, average speed, and detailed emission outputs (CO2, CO, HC, NOx, PMx, Fuel, Noise), were collected using SUMO's built-in --tripinfo-output and --emission-output flags.
+
 ## Results and Analysis
 
 After running the simulations, the `results/` directory will contain:
 
 -   `Traffic metrics report.xlsx`: A spreadsheet detailing various traffic flow metrics (e.g., average waiting time, total travel time) for each simulation run.
 -   Plots for each agent (e.g., `Fixed Time_Queue Lenght.png`, `Fixed Timing_reward image.png`): Visualizations of key performance indicators over the simulation duration. These plots help in comparing the effectiveness of the different agents.
+
+## Discussion
+The performance of the three traffic signal control strategies was rigorously compared under identical traffic demand conditions. The Fixed Timing (FT) and Q-Learning (QL) simulations were run for a fixed duration of 3600 simulated seconds (1 hour). The Deep Q-Learning (DQN) agent was trained over an extended period (up to 5 simulated hours, 36000 steps), but its exceptional performance meant it cleared all traffic much faster, completing its run in just 1446.02 simulated seconds.
 
 ## Contributing
 
