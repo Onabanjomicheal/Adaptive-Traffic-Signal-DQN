@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-06-10 03:33:16 by Eclipse SUMO netedit Version 1.23.1
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="Bus" vClass="bus" color="yellow" personCapacity="20" decel="4.0"/>
+    <vType id="Trailer" vClass="trailer" guiShape="truck/semitrailer" accel="1.30" decel="4.0"/>
+    <vType id="private_car" vClass="private" color="blue"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <flow id="f_0" type="Trailer" begin="0.00" departLane="best" departSpeed="avg" color="red" from="216613134#8" to="5199272#7" end="3600.00" vehsPerHour="100"/>
+    <flow id="f_1" type="Bus" begin="0.00" departLane="best" departSpeed="avg" from="-5199272#5" to="J2_J0" via="JF_J7" end="4800.00" vehsPerHour="20"/>
+    <flow id="f_10" type="private_car" begin="0.00" departLane="best" departSpeed="avg" color="blue" from="-5199272#9" to="220664825#3" via="-5199272#6 -5199272#5 J5_JD 220664825#1" end="3600.00" vehsPerHour="46"/>
+    <flow id="f_11" type="private_car" begin="0.00" departLane="best" departSpeed="avg" color="blue" from="-5199272#10" to="220663185#3" via="-5199272#9 -5199272#6 -5199272#5 J5_JD" end="4800.00" vehsPerHour="96"/>
+    <flow id="f_13" type="Trailer" begin="0.00" departLane="best" departSpeed="avg" color="red" from="-5199272#5" to="J2_J0" end="4800.00" vehsPerHour="35"/>
+    <flow id="f_14" type="Bus" begin="0.00" departLane="best" departSpeed="avg" from="-220663170#0" to="IKOTUN_IN_NNPC" via="-220663185#1" end="3600.00" vehsPerHour="30"/>
+    <flow id="f_15" type="Bus" begin="0.00" departLane="best" departSpeed="avg" from="216613134#8" to="5199272#5" via="216613134#13 GATE_IKOTUN_OUT IKOTUN_OUT_J6 J6_J7 J7_J8 J8_R2 ISOLOj_ISOLO 5199272#2" end="4800.00" vehsPerHour="150"/>
+    <flow id="f_16" type="Bus" begin="0.00" departLane="best" departSpeed="avg" from="216613134#5" to="5199272#7" via="216613134#6 216613134#8 216613134#13 GATE_IKOTUN_OUT IKOTUN_OUT_J6 J6_J7 J7_J8 J8_R2 ISOLOj_ISOLO 5199272#5 5199272#6" end="4800.00" vehsPerHour="50"/>
+    <flow id="f_17" type="Bus" begin="0.00" departLane="best" departSpeed="avg" color="red" from="216613134#8" to="535372280#2" via="IKOTUN_OUT_J6 535372280#1" end="4800.00" vehsPerHour="70"/>
+    <flow id="f_18" type="Bus" begin="0.00" departLane="best" departSpeed="avg" from="437188452#3" to="IKOTUN_IN_NNPC" end="4800.00" vehsPerHour="10"/>
+    <flow id="f_19" type="private_car" begin="0.00" departLane="best" departSpeed="avg" color="blue" from="437188452#3" to="IKOTUN_IN_NNPC" end="4800.00" vehsPerHour="5"/>
+    <flow id="f_2" type="Trailer" begin="0.00" departLane="best" departSpeed="avg" color="red" from="216613134#6" to="5199272#10" via="5199272#7" end="3600.00" vehsPerHour="90"/>
+    <flow id="f_20" type="Bus" begin="0.00" departLane="best" departSpeed="avg" from="216613134#5" to="J8_JG" via="J6_J7" end="3600.00" vehsPerHour="20"/>
+    <flow id="f_21" type="Bus" begin="0.00" departLane="best" departSpeed="avg" from="-220663171#2" to="5199272#16" via="-220663171#1 436942183 220663189#1 JG_J8" end="3600.00" vehsPerHour="100"/>
+    <flow id="f_22" type="Bus" begin="0.00" departLane="best" departSpeed="avg" from="216613134#5" to="J7_JF" via="IKOTUN_OUT_J6" end="3600.00" vehsPerHour="80"/>
+    <flow id="f_23" type="private_car" begin="0.00" departLane="best" departSpeed="avg" color="blue" from="-1218723251" to="IKOTUN_IN_NNPC" end="3600.00" vehsPerHour="10"/>
+    <flow id="f_24" type="Bus" begin="0.00" departLane="best" departSpeed="avg" from="216613134#8" to="J6_JE" via="216613134#13 GATE_IKOTUN_OUT IKOTUN_OUT_J6" end="4800.00" vehsPerHour="55"/>
+    <flow id="f_26" type="Trailer" begin="0.00" departLane="best" departSpeed="avg" color="red" from="-1218723251" to="IKOTUN_IN_NNPC" end="3600.00" vehsPerHour="5"/>
+    <flow id="f_27" type="Trailer" begin="0.00" departLane="best" departSpeed="avg" color="red" from="O_OKOTA_OUT" to="ISOLOj_ISOLO" end="3600.00" vehsPerHour="15"/>
+    <flow id="f_28" type="private_car" begin="0.00" departLane="best" departSpeed="avg" color="blue" from="113637345#1" to="ISOLOj_ISOLO" end="3600.00" vehsPerHour="25"/>
+    <flow id="f_29" type="private_car" begin="0.00" departLane="best" departSpeed="avg" color="blue" from="O_OKOTA_OUT" to="R1_J1" end="3600.00" vehsPerHour="15"/>
+    <flow id="f_3" type="private_car" begin="0.00" departLane="best" departSpeed="avg" color="blue" from="-5199272#12" to="-420087187#2" via="-5199272#11 -5199272#10 -5199272#9 -5199272#5 -5199272#4 ISOLO_ISOLOJ R1_J1 J3_J4 J4_JC" end="3600.00" vehsPerHour="10"/>
+    <flow id="f_30" type="Bus" begin="0.00" departLane="best" departSpeed="avg" from="113637345#1" to="ISOLOj_ISOLO" end="3600.00" vehsPerHour="20"/>
+    <flow id="f_31" type="Bus" begin="0.00" departLane="best" departSpeed="avg" from="O_OKOTA_OUT" to="R1_J1" end="3600.00" vehsPerHour="20"/>
+    <flow id="f_32" type="Bus" begin="0.00" departLane="best" departSpeed="avg" from="535248205#4" to="J5_IKOTUN_IN" end="3600.00" vehsPerHour="12"/>
+    <flow id="f_34" type="private_car" begin="0.00" departLane="best" departSpeed="avg" color="blue" from="-220663185#2" to="J6_JE" end="3600.00" vehsPerHour="20"/>
+    <flow id="f_35" type="Trailer" begin="0.00" departLane="best" departSpeed="avg" color="red" from="-535248205#1" to="IKOTUN_IN_NNPC" end="3600.00" vehsPerHour="15"/>
+    <flow id="f_36" type="Trailer" begin="0.00" departLane="best" departSpeed="avg" color="red" from="420087185" to="IKOTUN_IN_NNPC" end="3600.00" vehsPerHour="10"/>
+    <flow id="f_4" type="Trailer" begin="0.00" departLane="best" departSpeed="avg" from="-220663188#0" to="IKOTUN_IN_NNPC" via="-220663185#3" end="3600.00" vehsPerHour="30"/>
+    <flow id="f_40" type="private_car" begin="0.00" departLane="best" departSpeed="avg" color="blue" from="216613134#5" to="5199272#7" via="ISOLOj_ISOLO" end="3600.00" vehsPerHour="200"/>
+    <flow id="f_43" type="private_car" begin="0.00" departLane="best" departSpeed="avg" color="blue" from="216613134#0" to="J7_JF" via="J6_J7" end="3600.00" vehsPerHour="20"/>
+    <flow id="f_44" type="private_car" begin="0.00" departLane="best" departSpeed="avg" color="blue" from="216613134#0" to="535372280#2" end="3600.00" vehsPerHour="30"/>
+    <flow id="f_45" type="private_car" begin="0.00" departLane="best" departSpeed="avg" color="blue" from="-220664825#3" to="IKOTUN_IN_NNPC" end="4800.00" vehsPerHour="8.01"/>
+    <flow id="f_46" type="private_car" begin="0.00" departLane="best" departSpeed="avg" color="blue" from="216613134#0" to="-220663177" via="5199272#6 5199272#7" end="3600.00" vehsPerHour="30"/>
+    <flow id="f_52" type="Bus" begin="0.00" departLane="best" departSpeed="avg" from="JE_J6" to="ISOLOj_ISOLO" end="3600.00" vehsPerHour="10"/>
+    <flow id="f_53" type="Bus" begin="0.00" departLane="best" departSpeed="avg" from="-436944112#0" to="ISOLOj_ISOLO" end="3600.00" vehsPerHour="15"/>
+    <flow id="f_57" type="Bus" begin="0.00" departLane="best" departSpeed="avg" from="-5199272#5" to="IKOTUN_IN_NNPC" end="4800.00" vehsPerHour="150"/>
+    <flow id="f_58" type="private_car" begin="0.00" departLane="best" departSpeed="avg" color="blue" from="-5199272#5" to="IKOTUN_IN_NNPC" end="4800.00" vehsPerHour="200"/>
+    <flow id="f_6" type="Bus" begin="0.00" departLane="best" departSpeed="avg" from="-5199272#12" to="IKOTUN_IN_NNPC" via="-5199272#10 -5199272#9 -5199272#5 -5199272#4 ISOLO_ISOLOJ R1_J1" end="3600.00" vehsPerHour="150"/>
+    <flow id="f_7" type="private_car" begin="0.00" departLane="best" departSpeed="avg" color="blue" from="-5199272#13" to="J2_J0" via="-5199272#12 -5199272#11 -5199272#9 -5199272#5 ISOLO_ISOLOJ R1_J1 J1_J2" end="3600.00" vehsPerHour="60"/>
+    <flow id="f_8" type="private_car" begin="0.00" departLane="best" departSpeed="avg" color="blue" from="-5199272#9" to="-461597721" via="-5199272#6 -5199272#5 J3_JB" end="4800.00" vehsPerHour="20"/>
+    <flow id="f_9" type="Trailer" begin="0.00" departLane="best" departSpeed="avg" color="red" from="-5199272#15" to="IKOTUN_IN_NNPC" via="-5199272#12 -5199272#10 -5199272#9 -5199272#5 -5199272#4 R1_J1 J2_J3 J3_J4 J5_IKOTUN_IN" end="3600.00" vehsPerHour="50"/>
+</routes>
