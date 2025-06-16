@@ -1,6 +1,6 @@
 # 🚦 Lagos Traffic Optimization with Deep Q-Networks (DQN) in SUMO
 
-![Isolo-Egbe Map](https://raw.githubusercontent.com/Onabanjomicheal/Adaptive-Traffic-Signal-DQN/main/isolo_egbe.png)
+![Isolo-Egbe Map](https://raw.githubusercontent.com/Onabanjomicheal/Adaptive-Traffic-Signal-DQN/main/isolo_egbe.png)  ![Traffic Guidelinee](https://raw.githubusercontent.com/Onabanjomicheal/Adaptive-Traffic-Signal-DQN/main/Traffic_analysis_guideline.png)
 
 A Reinforcement Learning model that clears traffic in Lagos 59% faster than traditional systems—tested on real maps using SUMO and Deep Q-Networks.
 
